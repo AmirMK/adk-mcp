@@ -7,9 +7,9 @@ from vertexai import agent_engines
 # Load environment variables from .env file
 load_dotenv()
 
-PROJECT_ID = "agenspace-test"
+PROJECT_ID = ....
 LOCATION = "us-central1"
-STAGING_BUCKET = "gs://new_test_xx2xx"
+STAGING_BUCKET = ...
 
 if not all([PROJECT_ID, LOCATION, STAGING_BUCKET]):
     raise ValueError(
