@@ -9,7 +9,7 @@ from google.adk.tools.mcp_tool.mcp_session_manager \
 
 
 # The URL of your deployed Cloud Run MCP server.
-MCP_SERVER_URL = "https://mcp-server-641879769713.us-central1.run.app/mcp/"
+MCP_SERVER_URL = ...
 
 
 OAUTH_CLIENT_ID = os.getenv("MCP_OAUTH_CLIENT_ID", "YOUR_OAUTH_CLIENT_ID")
