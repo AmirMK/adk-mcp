@@ -1,18 +1,10 @@
 # 🧠 Custom ADK Agent with MCP for Vertex AI Agent Engine
 
-This sample demonstrates how to build and deploy a **custom agent** using the [Agent Development Kit (ADK)] with an **MCP (Modular Code Processor)** backend. The agent can be:
+This sample demonstrates how to build and deploy a **custom agent** using the [Agent Development Kit (ADK)] with an **MCP ** backend. The agent can be:
 
 - Used as an **independent API** to integrate into custom applications, or  
 - Registered in **Agentspace** to provide a unified user interface and interaction experience.
 
----
-
-## 🚀 Features
-
-- ADK-based agent connected to an external MCP server.
-- Local development and testing using `adk web`.
-- Deployment to **Vertex AI Agent Engine**.
-- Sample code to invoke the deployed agent via Python API.
 
 ---
 
